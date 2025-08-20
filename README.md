@@ -1,6 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-        HotelRoom room1 = new HotelRoom(101);        System.out.println(room1.checkAvailability());          System.out.println(room1.bookRoom());  System.out.println(room1.checkAvailability());        System.out.println(room1.bookRoom());   
+        HotelRoom room1 = new HotelRoom(101);        System.out.println(room1.checkAvailability());          
+        System.out.println(room1.bookRoom());  
+        System.out.println(room1.checkAvailability());        
+        System.out.println(room1.bookRoom());   
     }
 }
 class HotelRoom {
